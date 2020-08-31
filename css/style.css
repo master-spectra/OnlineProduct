@@ -1,0 +1,264 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, Tahoma, Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+a,
+div,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.how-many {
+  font-size: 48px;
+  color: #fff;
+  padding-top: 20px;
+}
+.tag-line {
+  color: #fff;
+  padding-top: 20px;
+}
+.title {
+  color: #3D4F9F;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.button {
+  border-radius: 2px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.description {
+  width: 40%;
+  display: inline-block;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header .logo {
+  border-radius: 100%;
+  padding: 20px;
+  background: #5E81FE;
+}
+.top-header .menu .link {
+  padding: 0 15px;
+  color: #697CA6;
+  font-size: 16px;
+}
+.top-header .menu .link_active {
+  color: #5E81FE;
+}
+.top-header .social-network .icon {
+  color: #B6BAC7;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.top-header .social-network .icon_active {
+  color: #6188FF;
+}
+.subtitle {
+  color: #8D96BD;
+  line-height: 170%;
+  padding-top: 30px;
+}
+.header {
+  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+}
+.header .header__top-header {
+  padding-top: 15px;
+}
+.header .header__top-header .header__button {
+  background: #D2E1FF;
+  color: #3A79FF;
+}
+.header .header__down-header {
+  padding-top: 90px;
+  text-align: center;
+}
+.header .header__down-header .header__title {
+  padding-bottom: 20px;
+}
+.header .header__down-header .header__title_second {
+  font-size: 50px;
+  padding: 0;
+  font-weight: 300;
+}
+.header .header__down-header .header__image {
+  width: 100%;
+}
+.features {
+  padding: 50px 0;
+  text-align: center;
+}
+.plan {
+  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+  padding: 50px 0;
+}
+.plan .description .description__title {
+  font-size: 36px;
+  padding-top: 27px;
+}
+.plan .description .overlay-button {
+  padding-top: 47px;
+}
+.plan .description .overlay-button .plan__button {
+  margin-right: 50px;
+  color: #fff;
+  background: #4C85FF;
+}
+.plan .description .overlay-button .plan__button {
+  background: #F5F8FF;
+  color: #ADB4D2;
+  margin-right: 0;
+  border: 1px solid grey;
+}
+.plan img {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  height: 450px;
+}
+.about {
+  padding: 90px 0;
+  text-align: center;
+}
+.about .about__title {
+  font-size: 24px;
+  padding-top: 20px;
+  text-transform: inherit;
+}
+.about .about__cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.about .about__cards .card {
+  width: 20%;
+}
+.about .about__cards .card .card__title {
+  padding-top: 20px;
+  font-weight: bold;
+}
+.about .overlay-button {
+  padding-top: 50px;
+}
+.about .overlay-button .about__button {
+  background: #FFD7D7;
+  color: #D43F3F;
+  margin-right: 20px;
+}
+.about .overlay-button span {
+  text-transform: uppercase;
+}
+.about .overlay-button .about__button_second {
+  background: #D2E1FF;
+  color: #3A79FF;
+  margin-right: 0;
+  margin-left: 20px;
+}
+.stats {
+  display: flex;
+}
+.stats .stats__performance {
+  text-align: end;
+  padding: 40px;
+  background: #5E80FF;
+  width: 50%;
+}
+.stats .stats__users {
+  padding: 40px;
+  width: 50%;
+  background: #E9EFFF;
+}
+.stats .stats__users .how-many {
+  color: #5E80FF;
+}
+.stats .stats__users .tag-line {
+  color: #5E80FF;
+}
+.blog {
+  text-align: center;
+  padding: 90px 0;
+}
+.blog .blog__title {
+  font-size: 24px;
+}
+.blog .carusel .news img {
+  display: inline-block;
+}
+.blog .carusel .news .news__description {
+  padding-top: 100px;
+  float: right;
+}
+.blog .carusel .news .news__description .description__title {
+  font-size: 36px;
+}
+.blog .carusel .news .news__description .description__subtitle {
+  padding: 0;
+}
+.blog .carusel .news .news__description .overlay-button {
+  padding-top: 50px;
+}
+.blog .carusel .news .news__description .overlay-button .blog__button {
+  color: #3A79FF;
+  background: #D2E1FF;
+  margin-right: 20px;
+}
+.blog .carusel .news .news__description .overlay-button .blog__button_second {
+  color: #A6B6DA;
+  background: #FFFFFF;
+  border: 1px solid grey;
+}
+.quotes {
+  background: #EAF0FF;
+  padding: 90px 0;
+}
+.quotes .wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+.quotes .wrapper .description .quotes__title {
+  font-size: 36px;
+}
+.quotes .wrapper .profiles {
+  width: 40%;
+}
+.quotes .wrapper .profiles .profile {
+  width: 90%;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.quotes .wrapper .profiles .profile img {
+  padding-left: 43%;
+  padding-top: 20px;
+}
